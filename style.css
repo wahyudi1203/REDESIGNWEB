@@ -1,0 +1,518 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    font-size: 15px;
+  }
+  html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  .layar-dalam {
+    width: 1000px;
+    margin: auto;
+  }
+  .layar-penuh {
+    width: 100%;
+  }
+  nav {
+    z-index: 100;
+    color: #de1e1e;
+    text-align: center;
+    position: fixed;
+    border-bottom: 1px solid #e80606;
+    line-height: 60px;
+    width: 100%;
+    transition: background-color 0.5s ease;
+  }
+  nav.putih {
+    background-color: #d22121;
+  }
+  nav .logo {
+    float: left;
+    position: relative;
+    line-height: 55px;
+    text-align: center;
+  }
+  nav .logo img {
+    vertical-align: middle;
+    width: 120px;
+  }
+  
+  nav .menu {
+    float: right;
+    height: 60px;
+    max-width: 600px;
+  }
+  
+  nav .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav .menu ul li {
+    list-style-type: none;
+    float: left;
+    line-height: 60px;
+  }
+  
+  nav ul li a {
+    color: #f21414;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .work-title,
+.work-description {
+    color: white; /* Mengatur warna teks menjadi putih */
+}
+
+img {
+  filter: brightness(0) invert(1); /* Mengubah gambar menjadi warna putih */
+}
+
+img.tagteamsigns-logo {
+  filter: brightness(0) invert(1); /* Mengubah gambar menjadi warna putih */
+}
+
+.red-text {
+  color: red; /* Mengatur warna teks menjadi merah */
+}
+
+.ringkasan,
+.konten-isi li {
+    color: red; /* Mengatur warna teks menjadi merah */
+}
+
+  /* pengaturan header */
+  header {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: 2;
+  }
+  header video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -2;
+  }
+  header .intro {
+    z-index: 100;
+    color: #c31e1e;
+    text-align: center;
+    position: relative;
+    top: 50%;
+  }
+  header .intro h3 {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+  }
+  .tombol {
+    background-color: #ef1616;
+    height: 40px;
+    line-height: 42px;
+    color: #cac6c6;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    font-size: 15px;
+    border-radius: 4px;
+  }
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #b11919;
+    opacity: 50%;
+    z-index: -1;
+  }
+  
+  .tombol-menu {
+    position: absolute;
+    top: 1.7rem;
+    right: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+  }
+  .tombol-menu .garis {
+    height: 3px;
+    background-color: #f3eeee;
+  }
+  section {
+    padding: 50px 0px 50px 0px;
+  }
+  section h3 {
+    font-size: 30px;
+  }
+  section h3::after {
+    content: "";
+    border-bottom: 5px solid #d1cbcb;
+    width: 52px;
+    display: block;
+    margin: 20px auto;
+  }
+  .konten-isi ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .konten-isi li {
+    margin-bottom: 10px; /* Jarak antar item */
+  }
+  
+  #aboutus,
+  #team,
+  #blog {
+    text-align: center;
+  }
+  section p.ringkasan {
+    font-style: italic;
+    font-size: 18px;
+    color: #e02828;
+  }
+  section .konten-isi p {
+    font-style: normal;
+  }
+  nav.putih {
+    background-color: #dc1919;
+  }
+  nav.putih .tombol-menu .garis {
+    background-color: #d71818;
+  }
+  nav.putih ul li a {
+    color: #f4ebeb;
+  }
+  nav .logo img.hitam {
+    display: none;
+  }
+  section.abuabu {
+    background-color: #e82020;
+  }
+  .support,
+  .tim,
+  .blog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .support h6,
+  .tim h6 {
+    margin: 0px;
+    margin-top: 20px;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .support img {
+    width: 50px;
+  }
+  .support div,
+  .tim div {
+    text-align: center;
+    width: 26%;
+  }
+  section#gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+    padding: 10px 0px 10px 0px;
+  }
+  section#gallery div {
+    padding: 10px;
+  }
+  section#gallery div img {
+    height: 100px;
+    border-radius: 5px;
+  }
+  section#gallery div img:hover {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+  }
+  section.quote {
+    background: url("") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+    padding: 100px;
+    background-color: #ff1717; /* Merah terang */
+  
+    
+  }
+  section.quote .layar-dalam p {
+    display: inline;
+    background: url("asset/quote-icon.png") no-repeat;
+    padding: 40px;
+  }
+  .tim img {
+    width: 100%;
+    box-shadow: 0px -10px 30px #ccc;
+    border-radius: 5px;
+  }
+  .blog .area {
+    width: 47%;
+    box-shadow: 0px -10px 30px #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .blog div.area div {
+    width: 50%;
+  }
+  .blog .area .gambar {
+    border-radius: 5px 0px 0px 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+  }
+  .blog .area .text article {
+    padding: 40px;
+  }
+  .blog .area .text article h4 {
+    margin: 0px;
+  }
+  .blog .area .text article a {
+    color: #ed0f0f;
+    text-decoration: none;
+    transition: color 0.5s ease;
+  }
+  .blog .area .text article a:hover {
+    color: #cb0909;
+  }
+  footer {
+    padding: 50px 0px 50px 0px;
+    background-color: #4b4949;
+    color: #f3f0f0;
+  }
+  footer .layar-dalam {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer .layar-dalam div {
+    width: 20%;
+  }
+  footer .layar-dalam h5 {
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  footer .layar-dalam .copyright {
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #f2eded;
+    text-align: center;
+  }
+  @media screen and (max-width: 991.98px) {
+    .layar-dalam {
+      width: 90%;
+    }
+
+    .centered {
+      text-align: center;
+    }
+    .centered img {
+      display: block;
+      margin: 0 auto;
+    }
+    
+    nav .menu ul {
+      display: none;
+      margin-top: 60px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+    nav .menu ul li {
+      width: 100%;
+      border-bottom: 1px solid #decbcb;
+      background-color: #d9cfcf;
+      line-height: 40px;
+    }
+    nav .menu ul li a {
+      color: #ebe8e8;
+    }
+    .tombol-menu {
+      display: flex;
+    }
+    .blog .area {
+      display: block;
+    }
+    .blog div.area div {
+      width: 100%;
+    }
+    .blog .area .gambar {
+      border-radius: 5px 5px 0px 0px;
+      height: 200px;
+    }
+    .support {
+      display: block;
+    }
+    .support div {
+      width: 100%;
+      padding-bottom: 30px;
+    }
+  }
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  .contact-form-container {
+    max-width: 500px;
+    margin: 50px 50px 50px 0; 
+    padding: 50px;
+    background-color: #ca1616;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(240, 235, 235, 0.1);
+  }
+  
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.contact-form-container,
+.social-media-container {
+    width: 45%;
+}
+
+.left-align {
+    text-align: left;
+}
+
+/* Styles for Contact Form */
+.contact-form-container .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form-container .form-group input,
+.contact-form-container .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f3e9e9;
+    border-radius: 5px;
+}
+
+.contact-form-container .form-group textarea {
+    resize: vertical;
+}
+
+.contact-form-container button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #eeeff0;
+    color: #d01010;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form-container button[type="submit"]:hover {
+    background-color: #e01414;
+}
+
+/* Styles for Social Media */
+.social-media-container .social-media-list {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media-container .social-media-list li {
+    margin-bottom: 10px;
+}
+
+.social-media-container .social-media-list li a {
+    display: block;
+    padding: 10px;
+    background-color: #e01414;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.social-media-container .social-media-list li a:hover {
+    background-color: #c00;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+
+.mission {
+  background-color: #c20f0f; /* Warna latar belakang */
+  padding: 60px; /* Ruang di sekitar teks */
+  border-radius: 5px; /* Memberi sudut bulat */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+  width: 80%; /* Lebar kotak */
+  max-width: 800px; /* Lebar maksimum kotak */
+  height: auto; /* Tinggi kotak menyesuaikan kontennya */
+  margin: auto; /* Memposisikan kotak ke tengah */
+  text-align: justify; /* Posisi teks rata di dalam kotak */
+}
+
+
+
+.mission h5 {
+  color: #f8f3f3; /* Warna teks */
+  margin-bottom: 50px; /* Jarak antara judul dan paragraf */
+}
+
+.mission p {
+  color: #f7eded; /* Warna teks */
+  line-height: 1.6; /* Jarak antara baris */
+}
