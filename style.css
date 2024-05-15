@@ -1,4 +1,3 @@
-
 * {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 20px;
@@ -20,9 +19,10 @@
   .layar-penuh {
     width: 100%;
   }
+  
   nav {
     z-index: 100;
-    color: #de1e1e;
+    color: #ffffff;
     text-align: center;
     position: fixed;
     border-bottom: 1px solid #e80606;
@@ -64,7 +64,7 @@
   }
   
   nav ul li a {
-    color: #f21414;
+    color: #ffffff;
     text-align: center;
     padding: 0px 16px 0px 16px;
     text-decoration: none;
@@ -73,35 +73,13 @@
   nav ul li a:hover {
     text-decoration: underline;
   }
-  
+
   body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
   }
-
-  .work-title,
-.work-description {
-    color: white; /* Mengatur warna teks menjadi putih */
-}
-
-img {
-  filter: brightness(0) invert(1); /* Mengubah gambar menjadi warna putih */
-}
-
-img.tagteamsigns-logo {
-  filter: brightness(0) invert(1); /* Mengubah gambar menjadi warna putih */
-}
-
-.red-text {
-  color: red; /* Mengatur warna teks menjadi merah */
-}
-
-.ringkasan,
-.konten-isi li {
-    color: red; /* Mengatur warna teks menjadi merah */
-}
-
+  
   /* pengaturan header */
   header {
     position: relative;
@@ -110,16 +88,10 @@ img.tagteamsigns-logo {
     overflow: hidden;
     z-index: 2;
   }
-  header video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-    z-index: -2;
-  }
+  
   header .intro {
     z-index: 100;
-    color: #c31e1e;
+    color: #e8e8e8;
     text-align: center;
     position: relative;
     top: 50%;
@@ -130,10 +102,10 @@ img.tagteamsigns-logo {
     padding: 0;
   }
   .tombol {
-    background-color: #ef1616;
+    background-color: #d11717;
     height: 40px;
     line-height: 42px;
-    color: #cac6c6;
+    color: #ffffff;
     text-decoration: none;
     display: inline-block;
     padding: 0px 20px 0px 20px;
@@ -146,11 +118,10 @@ img.tagteamsigns-logo {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #b11919;
+    background-color: #d61e1e;
     opacity: 50%;
     z-index: -1;
   }
-  
   .tombol-menu {
     position: absolute;
     top: 1.7rem;
@@ -162,7 +133,7 @@ img.tagteamsigns-logo {
   }
   .tombol-menu .garis {
     height: 3px;
-    background-color: #f3eeee;
+    background-color: #fff;
   }
   section {
     padding: 50px 0px 50px 0px;
@@ -172,20 +143,11 @@ img.tagteamsigns-logo {
   }
   section h3::after {
     content: "";
-    border-bottom: 5px solid #d1cbcb;
+    border-bottom: 5px solid #c83636;
     width: 52px;
     display: block;
     margin: 20px auto;
   }
-  .konten-isi ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .konten-isi li {
-    margin-bottom: 10px; /* Jarak antar item */
-  }
-  
   #aboutus,
   #team,
   #blog {
@@ -194,26 +156,27 @@ img.tagteamsigns-logo {
   section p.ringkasan {
     font-style: italic;
     font-size: 18px;
-    color: #e02828;
+    color: #c51414;
   }
   section .konten-isi p {
     font-style: normal;
   }
   nav.putih {
-    background-color: #dc1919;
+    background-color: #b91a1a;
   }
   nav.putih .tombol-menu .garis {
-    background-color: #d71818;
+    background-color: #bc2020;
   }
   nav.putih ul li a {
-    color: #f4ebeb;
+    color: #faf7f7;
   }
   nav .logo img.hitam {
     display: none;
   }
-  section.abuabu {
-    background-color: #e82020;
+  section.merah {
+    background-color: #bb1919;
   }
+  
   .support,
   .tim,
   .blog {
@@ -223,60 +186,58 @@ img.tagteamsigns-logo {
   }
   .support h6,
   .tim h6 {
-    margin: 0px;
-    margin-top: 20px;
+    margin: 30px;
+    margin-top: 60px;
     padding: 0px;
     font-size: 18px;
     font-weight: bold;
   }
   .support img {
-    width: 50px;
+    width: 100px;
   }
+
+  .center-text h6 {
+    font-size: large;
+}
   .support div,
   .tim div {
     text-align: center;
-    width: 26%;
+    width: 30%;
   }
   section#gallery {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     overflow: hidden;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0;
+    height: 100vh; /* Adjust the height to fill the viewport */
   }
+  
   section#gallery div {
-    padding: 10px;
+    flex-grow: 1; /* Allow the divs to grow and fill the available space */
+    padding: 0; /* Remove padding to avoid extra spacing */
   }
+  
   section#gallery div img {
-    height: 100px;
+    width: 100%; /* Make images fill the container width */
+    height: 100%; /* Make images fill the container height */
+    object-fit: cover; /* Ensure the images cover their containers */
     border-radius: 5px;
   }
+  
   section#gallery div img:hover {
     transition: all 0.2s ease-in-out;
     transform: scale(1.1);
   }
-  section.quote {
-    background: url("") no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color: #fff;
-    font-size: 20px;
-    font-style: italic;
-    padding: 100px;
-    background-color: #ff1717; /* Merah terang */
   
-    
-  }
-  section.quote .layar-dalam p {
-    display: inline;
-    background: url("asset/quote-icon.png") no-repeat;
-    padding: 40px;
-  }
+  .img-responsive {
+    max-width: 100%;
+    height: auto; 
+}
+
   .tim img {
     width: 100%;
-    box-shadow: 0px -10px 30px #ccc;
+    box-shadow: 0px -10px 30px #f4f0f0;
     border-radius: 5px;
   }
   .blog .area {
@@ -304,17 +265,17 @@ img.tagteamsigns-logo {
     margin: 0px;
   }
   .blog .area .text article a {
-    color: #ed0f0f;
+    color: #efecec;
     text-decoration: none;
     transition: color 0.5s ease;
   }
   .blog .area .text article a:hover {
-    color: #cb0909;
+    color: #ccc;
   }
   footer {
     padding: 50px 0px 50px 0px;
-    background-color: #4b4949;
-    color: #f3f0f0;
+    background-color: #dbe0e6;
+    color: #fff;
   }
   footer .layar-dalam {
     display: flex;
@@ -333,22 +294,13 @@ img.tagteamsigns-logo {
     width: 100%;
     margin-top: 30px;
     padding-top: 30px;
-    border-top: 1px solid #f2eded;
+    border-top: 1px solid #f40909;
     text-align: center;
   }
   @media screen and (max-width: 991.98px) {
     .layar-dalam {
       width: 90%;
     }
-
-    .centered {
-      text-align: center;
-    }
-    .centered img {
-      display: block;
-      margin: 0 auto;
-    }
-    
     nav .menu ul {
       display: none;
       margin-top: 60px;
@@ -359,12 +311,12 @@ img.tagteamsigns-logo {
     }
     nav .menu ul li {
       width: 100%;
-      border-bottom: 1px solid #decbcb;
-      background-color: #d9cfcf;
+      border-bottom: 1px solid #ccc;
+      background-color: #fff;
       line-height: 40px;
     }
     nav .menu ul li a {
-      color: #ebe8e8;
+      color: #e80b0b;
     }
     .tombol-menu {
       display: flex;
@@ -388,12 +340,196 @@ img.tagteamsigns-logo {
     }
   }
 
+  /* General section styling */
+section {
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  /* Styling for the "Our Team" section */
+  section h7 {
+    font-size: 24px;
+    color: #735858;
+    margin-bottom: 10px;
+  }
+  
+  .ringkasan {
+    font-size: 16px;
+    color: #fffcfc;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the team member container */
+  .tim {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  /* Styling for individual team members */
+  .tim div {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .tim img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
 
-  body {
+
+  .white-icon {
+    filter: brightness(0) invert(1);
+  }
+
+  /* Styling for the "abuabu" section */
+  .abuabu {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+
+  .center-text {
+    text-align: center;
+  }
+
+  /* Ensuring layout container within "abuabu" */
+  .layar-dalam {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+.mission {
+  background-color: #ececec; /* Warna latar belakang */
+  padding: 60px; /* Ruang di sekitar teks */
+  border-radius: 5px; /* Memberi sudut bulat */
+  box-shadow: 0 0 5px rgba(237, 228, 228, 0.1); /* Efek bayangan */
+  width: 80%; /* Lebar kotak */
+  max-width: 800px; /* Lebar maksimum kotak */
+  height: auto; /* Tinggi kotak menyesuaikan kontennya */
+  margin: auto; /* Memposisikan kotak ke tengah */
+  text-align: justify; /* Posisi teks rata di dalam kotak */
+}
+
+.mission h5 {
+  color: #f8f3f3; /* Warna teks */
+  margin-bottom: 50px; /* Jarak antara judul dan paragraf */
+}
+
+.mission p {
+  color: #181717; /* Warna teks */
+  line-height: 1.6; /* Jarak antara baris */
+}
+
+/* Styling for the h4 element with the class white-text */
+.white-text {
+    color: rgb(8, 8, 8);
+    font-size: 24px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    margin-bottom: 10px; 
+    text-align: center;
+  }
+  
+  /* Styling for the p element with the class ringkasan to have red text color */
+  .penjelasan{
+    color: rgb(17, 4, 4); /* Set the text color to red */
+    font-size: 16px; /* Set the font size (optional) */
+    line-height: 1.5; /* Set the line height for better readability (optional) */
+    margin-top: 0; /* Remove the top margin (optional) */
+    margin-bottom: 20px; /* Add some space below the paragraph (optional) */
+  }
+  
+  
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.contact-form-container,
+.social-media-container {
+  width: 48%;
+}
+
+.contact-form-container h2,
+.social-media-container h2 {
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 50%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #fffdfd;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #eef1f5;
+}
+
+.social-media-list {
+  list-style: none;
+  padding: 0;
+}
+
+.social-media-list li {
+  margin-bottom: 10px;
+}
+
+.social-media-list a {
+  color: #cfd0d1;
+  text-decoration: none;
+}
+
+.social-media-list a:hover {
+  text-decoration: underline;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 5px;
+  text-align: center;
+}
+
+.layar-dalam {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f7f7f7;
+    background-color: #928484;
   }
   
   .contact-form-container {
@@ -402,7 +538,7 @@ img.tagteamsigns-logo {
     padding: 50px;
     background-color: #ca1616;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(240, 235, 235, 0.1);
+    box-shadow: 0 0 10px rgba(241, 12, 16, 0.1);
   }
   
   
@@ -418,9 +554,6 @@ img.tagteamsigns-logo {
     width: 45%;
 }
 
-.left-align {
-    text-align: left;
-}
 
 /* Styles for Contact Form */
 .contact-form-container .form-group {
@@ -456,7 +589,7 @@ img.tagteamsigns-logo {
 }
 
 .contact-form-container button[type="submit"]:hover {
-    background-color: #e01414;
+    background-color: #ffffff;
 }
 
 /* Styles for Social Media */
@@ -472,8 +605,8 @@ img.tagteamsigns-logo {
 .social-media-container .social-media-list li a {
     display: block;
     padding: 10px;
-    background-color: #e01414;
-    color: #fff;
+    background-color: #ec0e0e;
+    color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
     text-align: center;
@@ -481,7 +614,7 @@ img.tagteamsigns-logo {
 }
 
 .social-media-container .social-media-list li a:hover {
-    background-color: #c00;
+    background-color: rgb(255, 255, 255);
 }
 
 .contact-info {
@@ -492,27 +625,31 @@ img.tagteamsigns-logo {
     margin-bottom: 10px;
 }
 
+/* style.css */
 
-.mission {
-  background-color: #c20f0f; /* Warna latar belakang */
-  padding: 60px; /* Ruang di sekitar teks */
-  border-radius: 5px; /* Memberi sudut bulat */
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Efek bayangan */
-  width: 80%; /* Lebar kotak */
-  max-width: 800px; /* Lebar maksimum kotak */
-  height: auto; /* Tinggi kotak menyesuaikan kontennya */
-  margin: auto; /* Memposisikan kotak ke tengah */
-  text-align: justify; /* Posisi teks rata di dalam kotak */
+body {
+    font-family: Arial, sans-serif;
 }
 
-
-
-.mission h5 {
-  color: #f8f3f3; /* Warna teks */
-  margin-bottom: 50px; /* Jarak antara judul dan paragraf */
+.content {
+    padding: 20px;
+    /* Gaya untuk konten halaman Anda */
 }
 
-.mission p {
-  color: #f7eded; /* Warna teks */
-  line-height: 1.6; /* Jarak antara baris */
+footer hr {
+    border: none;
+    height: 0px;
+    background-color: #ccc;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+footer .copyright {
+    font-size: 14px;
+    color: #333;
+}
+
+.footer-bawah {
+    text-align: center; /* Center the content horizontally */
+    margin-top: 50px; /* Adjust margin top as needed */
 }
