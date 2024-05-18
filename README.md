@@ -44,7 +44,11 @@ Saya mengubah LAYOUT (saya kasih ketengah), mengganti BACKGROUND-nya juga mengha
 ![footer 1](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/2195634a-96c3-4a96-9d48-e0b084722e6c)
 ![FOOTER](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/d493f8df-94b5-4502-9be1-f36b897cc517)
 
-
+# Keterangan untuk Full Website Sebelum RE-DESIGN dan Full Website Sesudah RE-DESIGN
+- Di bagian page 2 nya yang sebelumnya our services saya ubah menjadi WHO WE ARE dan untuk OUR SERVICES nya saya pindahkan ke Page 4
+- Di bagian NAVBAR nya juga saya ubah yang sebelumnya HOME SERVICES ABOUT US WORK CONTACT menjadi Home About Us Work Services Contact ( saya ubah sesuai urutan page yang sudah saya redesign)
+- untuk di navbar nya, yang sebelumnya ketika di scroll ke page 2 sampai page terakhir tidak muncul, saya ubah sehingga meskipun page nya di scroll dari page pertama sampai akhir navbar/menu nya tetap mencul dan juga ada perbedaan warna navbarnya ketika di bagian home webnya saja dibuka dan saat di scroll ke bawah.
+  
 # Full Website Sebelum RE-DESIGN
 ![PAGE 1 (1)](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/ceb8b5be-4b2b-49ea-bf84-90807d0aa222)
 ![PAGE 2 (2)](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/96b57ec2-36fe-4cdb-a281-842826f2b026)
