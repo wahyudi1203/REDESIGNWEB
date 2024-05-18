@@ -17,6 +17,17 @@ Saya mengubah LAYOUT (tulisan our services nya saya kasih ke tengah), tetap memp
 ![PAGE 2 (2)](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/732c7e6b-0657-48d3-ae50-773b1dd1d984)
 ![OUR SERVICES](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/25ceddfe-21bd-4220-a23c-d80500724f39)
 
+# About Us Sebelum dan Sesudah RE-DESIGN
+Saya mengubah LAYOUT (Tulisan nya Saya Kasih Ke Tengah) dan mengganti BACKGROUND-nya dengan warna lain
+![PAGE 3 (3)](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/dfa6a344-8ab9-43b0-aee4-b24a8bffc688)
+![PAGE 2](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/ad016559-b6fe-470a-ab19-cd71fb4ee17b)
+
+# OUR WORK Sebelum dan Sesudah RE-DESIGN
+Saya hanya mengubah posisi tulisannya ke tengah dan membahkan gambar tas di atas dari judulnya ( OUR WORK )
+![PAGE 5 (5)](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/2b10234a-77e8-45a3-8ced-d8004e6d6ae3)
+
+
+
 
 
 
