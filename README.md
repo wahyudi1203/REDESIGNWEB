@@ -25,6 +25,25 @@ Saya mengubah LAYOUT (Tulisan nya Saya Kasih Ke Tengah) dan mengganti BACKGROUND
 # OUR WORK Sebelum dan Sesudah RE-DESIGN
 Saya hanya mengubah posisi tulisannya ke tengah dan membahkan gambar tas di atas dari judulnya ( OUR WORK )
 ![PAGE 5 (5)](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/2b10234a-77e8-45a3-8ced-d8004e6d6ae3)
+![PAGE 3](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/23b50e57-e467-471a-80e2-cad3a444c95e)
+
+# OUR Mission Sebelum dan Sesudah RE-DESIGN
+Saya hanya mengubah posisi tulisannya ke tengah untuk judulnya, untuk penjelasannya saya ubah ke rata kiri
+![PAGE 4 (4)](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/f4d2bf97-48e6-43af-a90e-b0a778399e02)
+![MSSION](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/fbccc5de-e8fe-4da0-9829-6ad92ea2320a)
+
+# Contact Sebelum dan Sesudah RE-DESIGN
+Saya mengubah LAYOUT, mengganti BACKGROUND-nya dan juga menambahkan sosial media, email, dan nomor yang bisa di hubungi
+![PAGE 6 (6)](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/6cf30800-36dd-40b9-8000-70885b95249c)
+![PAGE 6](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/52457df3-c1da-4e1f-af99-5042960adacd)
+
+# Footer Sebelum dan Sesudah RE-DESIGN
+Saya mengubah LAYOUT (saya kasih ketengah), mengganti BACKGROUND-nya juga menghapus IKON chatnya, dan menghapus sosial media, email, dan nomornya.
+![footer 1](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/2195634a-96c3-4a96-9d48-e0b084722e6c)
+
+
+
+
 
 
 
