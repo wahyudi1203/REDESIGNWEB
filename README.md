@@ -30,7 +30,8 @@ Saya hanya mengubah posisi tulisannya ke tengah dan membahkan gambar tas di atas
 # OUR Mission Sebelum dan Sesudah RE-DESIGN
 Saya hanya mengubah posisi tulisannya ke tengah untuk judulnya, untuk penjelasannya saya ubah ke rata kiri
 ![PAGE 4 (4)](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/f4d2bf97-48e6-43af-a90e-b0a778399e02)
-![MSSION](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/fbccc5de-e8fe-4da0-9829-6ad92ea2320a)
+![MISSION](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/42e55ccf-cc0b-4ec7-9154-d999cbac06e3)
+
 
 # Contact Sebelum dan Sesudah RE-DESIGN
 Saya mengubah LAYOUT, mengganti BACKGROUND-nya dan juga menambahkan sosial media, email, dan nomor yang bisa di hubungi
@@ -41,7 +42,7 @@ Saya mengubah LAYOUT, mengganti BACKGROUND-nya dan juga menambahkan sosial media
 Saya mengubah LAYOUT (saya kasih ketengah), mengganti BACKGROUND-nya juga menghapus IKON chatnya, dan menghapus sosial media, email, dan nomornya.
 
 ![footer 1](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/2195634a-96c3-4a96-9d48-e0b084722e6c)
-![footer](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/c3b5940f-9ef7-40cb-b2b3-1355c43618fe)
+![FOOTER](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/d493f8df-94b5-4502-9be1-f36b897cc517)
 
 
 # Full Website Sebelum RE-DESIGN
@@ -58,6 +59,10 @@ Saya mengubah LAYOUT (saya kasih ketengah), mengganti BACKGROUND-nya juga mengha
 ![PAGE 2](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/1d18833b-28c0-479c-b981-e4eefe1a6f7f)
 ![PAGE 3](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/fb383537-f831-4685-bf78-2efa67417bb3)
 ![OUR SERVICES](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/6bd2d978-e76e-4bf7-958a-85b9b13c3c9c)
+![MISSION](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/4355a0c8-9b19-457c-b432-f3bb29a2fd7e)
+![PAGE 6](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/006ce8cb-ba83-4ca7-b536-67b3338e9bad)
+![FOOTER](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/d493f8df-94b5-4502-9be1-f36b897cc517)
+
 
 
 
