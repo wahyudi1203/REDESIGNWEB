@@ -15,7 +15,8 @@ Saya mengubah LAYOUT (Tulisan di bagian SIGNS DESIGN BUILD INSTALL saya ubah men
 Saya mengubah LAYOUT (tulisan our services nya saya kasih ke tengah), tetap mempertahkan IKON GAMBAR-nya dan juga menambah STYLE-nya
 
 ![PAGE 2 (2)](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/732c7e6b-0657-48d3-ae50-773b1dd1d984)
-![services](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/5e41c782-01e2-4469-913c-533b998b8c90)
+![OUR SERVICES](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/25ceddfe-21bd-4220-a23c-d80500724f39)
+
 
 
 
