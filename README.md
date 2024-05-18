@@ -53,6 +53,16 @@ Saya mengubah LAYOUT (saya kasih ketengah), mengganti BACKGROUND-nya juga mengha
 ![PAGE 6 (6)](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/91654e02-92dd-4cbf-bc58-c1593523b996)
 ![footer 1](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/85bdfe83-6a18-4728-a9af-f6f758c549c1)
 
+# Full Website Sesudah RE-DESIGN
+![PAGE 1](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/9fb1c1e7-6110-43d3-a88e-7b7577a9c566)
+![PAGE 2](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/1d18833b-28c0-479c-b981-e4eefe1a6f7f)
+![PAGE 3](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/fb383537-f831-4685-bf78-2efa67417bb3)
+![OUR SERVICES](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/6bd2d978-e76e-4bf7-958a-85b9b13c3c9c)
+
+
+
+
+
 
 
 
