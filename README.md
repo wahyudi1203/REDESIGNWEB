@@ -39,7 +39,10 @@ Saya mengubah LAYOUT, mengganti BACKGROUND-nya dan juga menambahkan sosial media
 
 # Footer Sebelum dan Sesudah RE-DESIGN
 Saya mengubah LAYOUT (saya kasih ketengah), mengganti BACKGROUND-nya juga menghapus IKON chatnya, dan menghapus sosial media, email, dan nomornya.
+
 ![footer 1](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/2195634a-96c3-4a96-9d48-e0b084722e6c)
+![footer](https://github.com/wahyudi1203/REDESIGNWEB/assets/169666649/c3b5940f-9ef7-40cb-b2b3-1355c43618fe)
+
 
 
 
